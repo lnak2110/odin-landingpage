@@ -11,6 +11,12 @@ body {
     justify-content: space-between;
 }
 
+.middle {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 #logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -26,8 +32,13 @@ body {
     gap: 32px;
 }
 
+.middle div,
+.middle img {
+   padding: 16px;
+}
+
 .hero-sec-text,
-.header-links a{
+.header-links a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -48,5 +59,5 @@ body {
 }
 
 img {
-    width: 500px;
+    max-width: 400px;
 }
