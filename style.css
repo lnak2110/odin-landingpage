@@ -58,6 +58,25 @@ body {
     border-radius: 5px;
 }
 
-img {
+.middle img {
     max-width: 400px;
+    height: auto;
+}
+
+.info-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info-text {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
