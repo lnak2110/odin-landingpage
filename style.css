@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -14,6 +16,8 @@ body {
 .middle {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 48px;
     gap: 16px;
 }
 
@@ -32,6 +36,14 @@ body {
     gap: 32px;
 }
 
+.middle div {
+    max-width: 500px;
+}
+
+.middle img {
+    border-radius: 24px;
+}
+
 .middle div,
 .middle img {
    padding: 16px;
@@ -48,19 +60,22 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
+    margin-bottom: 0px;
 }
 
 .sign-up {
+    font-size: 18px;
+    font-weight: bold;
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
     padding: 8px 24px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .middle img {
-    max-width: 400px;
-    height: auto;
+    max-width: 500px;
+    max-height: 300px;
 }
 
 .info-header-text {
@@ -78,6 +93,7 @@ body {
 .info-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
     padding: 8px;
 }
@@ -89,8 +105,71 @@ body {
 .info img {
     height: 200px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 8px;
     border-width: 2px;
-    border-color: #3882F6;
+    border-color: #ccc;
     border-style: solid;
+}
+
+.body2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 700px;
+    margin-bottom: 0;
+}
+
+.quotee {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.body3 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 800px;
+    border-radius: 8px;
+}
+
+.sign-up-text {
+    margin-left: 32px;
+}
+
+.text-1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.text-2 {
+    color: #F9FAF8;
+}
+
+.body3 .sign-up {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    height: 50px;
+    min-width: 120px;
+    align-self: center;
 }
