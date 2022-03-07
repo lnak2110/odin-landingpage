@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+/* Header section */
+
 .header {
     background-color: #1F2937;
 }
@@ -80,6 +82,10 @@ body {
     max-height: 300px;
 }
 
+/* End of Header section */
+
+/* Body1 section */
+
 .info-header-text {
     font-size: 36px;
     color: #1F2937;
@@ -113,6 +119,10 @@ body {
     border-style: solid;
 }
 
+/* End of Body1 section */
+
+/* Body2 section */
+
 .body2 {
     background-color: #E5E7EB;
     display: flex;
@@ -135,6 +145,10 @@ body {
     font-weight: 900;
     padding-left: 300px;
 }
+
+/* End of Body2 section */
+
+/* Body3 section */
 
 .body3 {
     display: flex;
@@ -177,6 +191,10 @@ body {
     align-self: center;
 }
 
+/* End of Body3 section */
+
+/* Footer section */
+
 .footer {
     background-color: #1F2937;
     display: flex;
@@ -186,3 +204,5 @@ body {
 .footer p{
     color: #F9FAF8;
 }
+
+/* End of Footer section */
